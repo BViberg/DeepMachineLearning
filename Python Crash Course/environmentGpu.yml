@@ -1,0 +1,22 @@
+name: dml_gpu
+channels:
+- !!python/unicode
+  'defaults'
+dependencies:
+- python=3.6
+- pip
+- numpy
+- jupyter
+- matplotlib
+- scikit-learn
+- scipy
+- pandas
+- seaborn
+- h5py
+- spacy
+- unidecode
+- pip:
+  - tensorflow-gpu
+  - keras
+  - gym
+  - pillow
